@@ -1,0 +1,43 @@
+<head>
+<meta charset="utf-8">
+<title>conky config</title>
+  <meta name="author" content="Arpit">
+  <link rel="stylesheet" href="../css/blogs.css">
+</head>
+
+<body id="body">
+
+
+<p><a href="../blogs/index.html">Back to blogs</a><div id="arpit">Configuring your linux desktop using conky</div></p>
+
+<p><div id="blogcontent">This blog is about configuring your linux desktop using conky.</p>
+<p>After I configured my desktop it looked like this.</p>
+<p><img src="../images/Screenshot from 2015-01-05 13_49_57.png"></p>
+ <p>So I hope that you too want something like this.</p>
+<p>First you need to install conky in your computer.
+Go to your terminal and type</p>
+
+<p><code>sudo apt-get install conky conky-all</code></p>
+
+<p>Next you should install some extra features like sensors and temperature measurement.
+For that type</p>
+
+<p><code>sudo apt-get install curl lm-sensors hddtemp</code></p>
+
+Now that conky is installed go to your home folder and search for the folder .conky
+If not there,create a new folder and name it .conky</p>
+<p>Now you need to store all your conky files in this folder.Create as many conky files as you want and store them here
+<p>Name your conky files as .conkyrc_name . For example I have created 3 conky files namely .conkyrc_weather , .conkyrc_me and .conkyrc_clock which display weather data,computer data and clock respectively.</p>
+<p>You can view my conky files in my github repo<a href="https://github.com/arpitbhal"> here</a>.</p>
+<p>
+Next you start viewing your customised desktop by typing in tour terminal</p>
+<p><code>conky -c ~/.conky/.conkyrc_name</code></p>
+<p>This will only show a single conky file named .conkyrc_name</p>
+For viewing multiple conky in your desktop you need to edit your .bash_aliases file in your home directory.Edit it as follows-
+At the bottom of the file add 
+<p><code>alias myconky="conky -c ~/.conky/.conkyrc_name1 & conky -c ~/.conky/.conkyrc_name2 & conky -c ~/.conky/.conkyrc_name3"</code></p>
+<p>Where name1,name2,etc are the name of your conky files.</p>
+<p>Now you have set all your conky files to start when you type <font color="green">myconky</font> in your terminal.</p>
+<p>Now go forward.Edit your conky files as you want your desktop to be seen.Have fun.</p>
+<p>If you have any queries feel free to contact me.</p></div>
+<p><a href="conky.html">^Back to top</a></p>

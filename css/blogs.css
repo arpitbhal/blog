@@ -1,0 +1,93 @@
+body{
+background-color:#888888;
+}
+
+
+
+
+
+#arpit {
+
+font-family: comic sans ms;
+ 
+text-transform: capitalize;
+
+text-align: center;
+
+color:#303030;
+
+text-decoration:bold;
+font-size: 400%;
+   }
+
+
+
+#about {
+
+margin-top: 1cm;
+
+text-indent: 2cm;
+
+line-height: 250%;
+
+font-weight: bold;
+}
+
+
+
+
+a:link {
+font-size:0.8cm;
+color:009900;
+text-decoration:none;
+font-weight: none;}
+
+
+a:visited {
+color:006600;
+text-decoration:none;
+font-weight: none;}
+
+
+a:hover {
+font-size:1cm;text-decoration:none;
+font-weight: none;}
+
+
+
+hr{
+margin-left: 5cm;
+
+margin-right: 5cm;
+}
+
+
+
+img{
+
+margin-left: 5cm;
+
+height: 400px;
+
+width: 600px;
+
+box-shadow: rgba(0,0,0,0.2) 10px 10px;
+}
+
+
+
+#blogcontent{
+
+text-indent: 2cm;
+font-family:comic sans ms;
+line-height: 150%;
+
+margin-top:5cm;
+font-size:0.6cm;
+margin-left:10cm;
+margin-right:10cm;}
+
+code{
+background-color: black;
+color: green;
+}

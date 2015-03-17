@@ -1,0 +1,46 @@
+body{
+background-color:#9EDCF1;
+}
+#arpit {
+font-family: viner hand itc; 
+text-transform: capitalize;
+font-weight: bold;
+text-align: center;
+
+font-size: 3em;
+margin-top: 1cm;   }
+
+
+#blogcontent {margin-left:10cm;margin-right:10cm;font-size:1cm;
+margin-top: 1cm;
+ text-indent: 2cm;
+line-height: 150%;
+font-size:2em;
+font-family:Comic Sans MS;
+color:#0000FF;
+}
+
+
+
+a:link {font-size:0.8cm;color:grey;text-decoration:none;font-weight:bold; cursor: pointer;}
+
+a:visited {color:#6495ED;text-decoration:none;font-weight: none; cursor: pointer;}
+
+a:hover {color:#66CDAA;font-size:1cm;text-decoration:none;font-weight: none; cursor: pointer;}
+
+
+hr{
+margin-left: 5cm;
+margin-right: 5cm;
+}
+
+
+img{
+margin-left: 20cm;
+height: 400px;
+width: 300px;
+box-shadow: rgba(0,0,0,0.2) 10px 10px;
+margin-bottom: 1cm;}
+
+
+

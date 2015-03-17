@@ -1,0 +1,112 @@
+body{
+background-color:#8A2BE2;
+}
+
+
+
+
+
+#arpit {
+
+font-family:Comic Sans MS;
+
+text-transform: capitalize;
+
+text-align: center;
+
+color:yellow;
+
+font-size: 3em;
+   }
+
+
+
+#about {
+
+margin-top: 1cm;
+
+text-indent: 2cm;
+
+line-height: 200%;
+
+font-weight: bold;
+}
+
+
+
+
+a:link {
+font-family: Comic Sans MS
+color:#7CFC00;
+text-decoration:none;
+font-size:130%;
+font-weight: none;}
+
+
+a:visited {
+color:#90EE90;
+text-decoration:none;
+font-weight: none;}
+
+
+a:hover {
+font-size:150%;text-decoration:none;
+font-weight: none;
+color:#AFEEEE;}
+
+
+
+hr{
+margin-left: 5cm;
+
+margin-right: 5cm;
+}
+
+
+
+img{
+
+margin-left: 2cm;
+
+height: 400px;
+
+width: 300px;
+
+box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
+}
+
+
+#conkyimg{
+margin-left: 6cm;
+margin-top: 1cm;
+margin-bottom: 1cm;
+width: 700px}
+
+#blogcontent{
+
+text-indent: 2cm;
+
+line-height: 150%;
+
+}
+
+#menubar{
+margin-left:1cm;
+font-color:black;
+margin-right:45cm;
+}
+
+#findme{
+font-size:0.5cm;
+text-align:right;
+}
+
+#buttons{
+border:2px solid #12969F;
+height:50px;
+width:300px;
+text-align:right;
+border-radius:5px;
+font-size:150%;
+}

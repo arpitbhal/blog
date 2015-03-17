@@ -1,0 +1,86 @@
+body{
+background-color:#888888;
+}
+
+
+
+
+
+#arpit {
+
+font-family:comic sans ms;
+ 
+text-transform: capitalize;
+
+text-align: center;
+
+color:#8B4513;
+
+font-size: 3em;
+   }
+
+
+
+#about {
+
+margin-top: 1cm;
+
+text-indent: 2cm;
+
+line-height: 250%;
+
+font-weight: bold;
+}
+
+
+
+
+a:link {
+color:#805E40;
+text-decoration:none;
+font-size:0.8cm;
+font-weight:bold;}
+
+
+a:visited {
+color:brown;
+text-decoration:none;
+font-weight: none;}
+
+
+a:hover {
+font-size:1cm;text-decoration:none;
+font-weight: none;
+color:brown;}
+
+
+
+hr{
+margin-left: 5cm;
+
+margin-right: 5cm;
+}
+
+
+
+img{
+
+margin-left: 2cm;
+
+height: 400px;
+
+width: 300px;
+
+box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
+}
+
+
+
+#blogcontent{
+
+text-indent: 2cm;
+
+line-height: 150%;
+
+}

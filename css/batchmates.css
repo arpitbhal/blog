@@ -1,0 +1,110 @@
+body{
+background-image: url("../images/background-wallpapers-7.jpg");
+
+}
+
+
+
+
+
+#arpit {
+
+font-family: viner hand itc;
+ 
+text-transform: capitalize;
+
+text-align: center;
+
+color:#303030;
+
+font-size: 3em;
+   }
+
+
+
+#about {
+
+margin-top: 1cm;
+
+text-indent: 2cm;
+
+line-height: 250%;
+
+font-weight: bold;
+}
+
+
+
+
+a:link {
+color:grey;
+text-decoration:none;
+font-size:130%;
+font-weight: none;}
+
+
+a:visited {
+color:purple;
+text-decoration:none;
+font-weight: none;}
+
+
+a:hover {
+font-size:150%;text-decoration:none;
+font-weight: none;
+color:blue;}
+
+
+
+hr{
+margin-left: 5cm;
+margin-top: 2cm;
+margin-right: 5cm;
+margin-bottom:2cm;}
+
+
+
+img{
+margin-top:2cm;
+margin-left:3cm;
+width:400px;
+height:300px;
+box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
+}
+
+
+#conkyimg{
+margin-left: 6cm;
+margin-top: 1cm;
+margin-bottom: 1cm;
+width: 700px}
+
+#blogcontent{
+
+text-indent: 2cm;
+
+line-height: 150%;
+
+}
+
+#menubar{
+margin-left:1cm;
+font-color:black;
+margin-right:45cm;
+}
+
+#findme{
+font-size:0.5cm;
+text-align:right;
+}
+
+#buttons{
+border:2px solid #12969F;
+background-color:#A7B0B0;
+height:50px;
+width:300px;
+text-align:right;
+border-radius:5px;
+font-size:150%;
+}
